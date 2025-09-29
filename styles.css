@@ -1,4 +1,26 @@
-/* css styles */
+/* Custom theming for Quarto site */
+
+/* Navbar and title banner */
 .navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+  background-color: #006DAE;   /* custom blue */
+}
+
+/* Page background */
+body {
+  background-color: #f9fafc;   /* light grey background for better contrast */
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #23395d;              /* distinct heading colour */
+  font-weight: bold;
+}
+
+/* Code blocks */
+div.sourceCode, pre code {
+  background-color: #f3f5f7;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
 }

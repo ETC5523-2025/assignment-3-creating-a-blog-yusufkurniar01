@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+/* Bootstrap variable overrides (compiled before rules) */
+$body-bg: #f9fafc;
+$headings-color: #23395d;
+$font-size-base: 1.05rem;
+$line-height-base: 1.6;
+
+/*-- scss:rules --*/
+/* Your site-specific CSS rules */
+.navbar-dark, .quarto-title-banner {
+  background-color: #006DAE; /* custom blue */
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+div.sourceCode, pre code {
+  background-color: #f3f5f7;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+}
