@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Yusuf Kurnia Romadhon - 35425067"
+  title: "Yusuf Kurnia Romadhon"
   description: "Communicating with Data - Personal Site and Blog"
   navbar:
     left:

@@ -1,5 +1,7 @@
 ---
 title: "ETC5523 Blog Assessment"
+title-block-banner: true
+page-layout: full
 listing:
   contents: posts
   sort: "date desc"
@@ -7,8 +9,18 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
 ---
 
+# Communicating with Data
+
+I am **Yusuf Kurnia Romadhon** (Student ID: 35425067). 
+
+This site hosts my ETC5523 blog and links to my work.
+
+- The **About** page contains a short biography and buttons.
+- The **Blog** section includes a post adapted from Assignment 2 for a general audience.
+
+::: {.callout-tip}
+The blog listing is generated automatically from files in the `posts/` directory.
+:::
 
