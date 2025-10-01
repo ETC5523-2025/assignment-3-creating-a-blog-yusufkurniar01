@@ -18,7 +18,7 @@ website:
         aria-label: GitHub
         href: https://github.com/yusufkurniar01
   page-footer:
-    left: "© {{< 2025 >}} Yusuf Kurnia Romadhon"
+    left: "© 2025 Yusuf Kurnia Romadhon"
     right: "Built with Quarto"
 
 format:
@@ -29,7 +29,7 @@ format:
     toc: true
     toc-location: left
     number-sections: false
-    code-tools: true
+    code-tools: false
 
 
 

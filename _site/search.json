@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is a blog template for the ETC5523 Communicating with Data assessment at Monash University."
+    "text": "AAA"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -18,6 +18,27 @@
     "href": "index.html",
     "title": "ETC5523 Blog Assessment",
     "section": "",
-    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\n\n\n\n\n\n\nTip\n\n\n\nThe blog listing is generated automatically from files in the posts/ directory.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 18, 2022\n\n\nEmi Tanaka\n\n\n\n\n\n\nNo matching items"
+    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\n\n\n\n\n\n\nTip\n\n\n\nThe blog listing is generated automatically from files in the posts/ directory.\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#short-biography",
+    "href": "about.html#short-biography",
+    "title": "About",
+    "section": "Short biography",
+    "text": "Short biography\nAAA"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\nAAA"
+  },
+  {
+    "objectID": "about.html#tools",
+    "href": "about.html#tools",
+    "title": "About",
+    "section": "Tools",
+    "text": "Tools\nAAA"
   }
 ]

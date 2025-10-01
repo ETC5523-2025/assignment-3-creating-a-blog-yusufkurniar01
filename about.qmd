@@ -1,13 +1,32 @@
 ---
 title: "About"
-image: profile.jpg
+image: images/yusufkurniar.png
+title-block-style: none
 about:
   template: jolla
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/yusufkurniar01
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yusuf-kurnia-romadhon-842049118
+    - icon: envelope
+      text: Email
+      href: mailto:yrom0002@student.monash.edu
+    - icon: file
+      text: Assignment 2 (PDF)
+      href: images/ETC5523_Assignment2_Yusuf-Romadhon_35425067.pdf
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+## Short biography
+
+AAA
+
+## Skills
+
+AAA
+
+## Tools
+
+AAA
