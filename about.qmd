@@ -21,12 +21,33 @@ about:
 
 ## Short biography
 
-AAA
+Yusuf Kurnia Romadhon is a Master of Business Analytics candidate at Monash University. He has delivered analytics across manufacturing, telecommunications, and data services, building executive dashboards in Tableau and Power BI, writing robust SQL, and automating tasks in Python. At Monash he is strengthening statistics and learning R to produce reproducible analysis with Quarto and GitHub. He values tidy data, version control, and clear documentation, and turns business questions into measurable metrics and decision-ready insights. Yusuf works comfortably with technical teams and executives, translating operational data into concise stories that support planning, performance tracking, and continuous improvement.
 
 ## Skills
 
-AAA
+<div class="two-col">
+<ul>
+  <li>Data wrangling and cleaning</li>
+  <li>Dashboard design and KPI definition</li>
+  <li>SQL querying and optimisation</li>
+  <li>Exploratory analysis</li>
+  <li>Business requirements to metrics</li>
+  <li>Data storytelling and report writing</li>
+  <li>Version control and reproducible workflows</li>
+</ul>
+</div>
 
 ## Tools
 
-AAA
+<div class="two-col">
+<ul>
+  <li>Tableau</li>
+  <li>Power BI</li>
+  <li>SQL (PostgreSQL/MySQL)</li>
+  <li>Python</li>
+  <li>R</li>
+  <li>Quarto</li>
+  <li>Git/GitHub</li>
+  <li>Excel</li>
+</ul>
+</div>
