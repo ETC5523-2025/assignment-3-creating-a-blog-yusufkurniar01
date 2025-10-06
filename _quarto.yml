@@ -21,6 +21,9 @@ website:
     left: "© 2025 Yusuf Kurnia Romadhon"
     right: "Built with Quarto"
 
+bibliography: references.bib
+csl: apa.csl
+
 format:
   html:
     theme:

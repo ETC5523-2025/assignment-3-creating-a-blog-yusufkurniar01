@@ -1,6 +1,21 @@
-.Rproj.user
+# RStudio / R
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+.Renviron
 
-/.quarto/
+# Quarto build artifacts
+_site/
+_freeze/
+.quarto/
+
+# Jupyter side-files
+**/.ipynb_checkpoints/
+**/*.quarto_ipynb
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

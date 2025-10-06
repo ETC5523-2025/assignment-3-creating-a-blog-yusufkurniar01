@@ -1,0 +1,78 @@
+---
+title: "How big is the burden of hospital infections in Germany?"
+author: "Yusuf Kurnia Romadhon"
+date: "2025-10-06"
+categories: [public-health, Germany, R]
+image: ../images/healthcare_data_analytics.png
+---
+
+## Problem description
+
+Healthcare-associated infections (HAIs) occur during hospital care. They increase length of stay, cost, and in severe cases cause death. Germany’s hospital infection rate is not the highest in Europe, yet the national burden can still be large because the admitted population is large.
+
+## Data description
+
+This post summarises results derived from the 2011–2012 ECDC point-prevalence study using the BHAI methodology. The totals below are those used in the Assignment 2 analysis.
+
+```{r}
+#| label: tbl-hai-counts
+#| tbl-cap: "Key HAI metrics for Germany (2011) used in this post."
+library(tibble)
+library(dplyr)
+library(knitr)
+
+metrics <- tribble(
+  ~metric,                              ~value,
+  "Estimated infections (all types)",   478222,
+  "Attributable deaths (all types)",     16245,
+  "DALYs (all types)",                  248920
+)
+
+metrics |> 
+  mutate(value = format(value, big.mark=",")) |> 
+  kable()
+
+```
+
+Variables in this post: total infections, attributable deaths, and disability-adjusted life years (DALYs). Source methods and interpretation follow @Zacher2019;@Gastmeier2010.
+
+Data cleaning (summary): data were read from the published estimates; values were checked for consistency; minor formatting changes were applied for display (thousand separators).
+
+## Analysis
+
+Which infections are most frequent?
+Urinary tract infections lead the counts, followed by pneumonia and surgical-site infections @Zacher2019. See Figure @fig-hai-bar.
+
+```{r}
+#| label: fig-hai-bar
+#| fig-cap: "Estimated cases by infection type (subset used in this post)."
+library(ggplot2)
+
+by_type <- tibble::tribble(
+  ~type,            ~estimated_cases,
+  "UTI",            214150,
+  "Pneumonia",      106586,
+  "Surgical site",   93222
+)
+
+ggplot(by_type, aes(type, estimated_cases)) +
+  geom_col() +
+  geom_text(aes(label = scales::comma(estimated_cases)), vjust = -0.3, size = 3.6) +
+  labs(x = NULL, y = "Estimated cases (2011)") +
+  theme_minimal(base_size = 12)
+
+```
+
+Do the most common infections cause the most harm?
+No. Pneumonia and bloodstream infections contribute a larger share of deaths and DALYs than their counts alone would suggest @Zacher2019. Prevention should prioritise high-severity pathways.
+
+Cross-reference examples: Table @tbl-hai-counts summarises the totals cited in the problem; Figure @fig-hai-bar focuses on frequency for communication clarity.
+
+## Conclusion
+
+Germany recorded hundreds of thousands of HAIs in 2011. UTIs were frequent, but pneumonia and bloodstream infections drove severe outcomes. The implication for practice is to maintain universal hygiene and target high-severity pathways such as ventilator-associated pneumonia and line care bundles.
+
+## References
+
+::: {#refs}
+:::

@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "ETC5523 Blog Assessment",
     "section": "",
-    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\n\n\n\n\n\n\nTip\n\n\n\nThe blog listing is generated automatically from files in the posts/ directory.\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog Template\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\n\nNo matching items"
+    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\n\n\n\n\n\n\nTip\n\n\n\nThe blog listing is generated automatically from files in the posts/ directory.\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHow big is the burden of hospital infections in Germany?\n\n\n\npublic-health\n\nGermany\n\nR\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog Template\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#short-biography",
@@ -40,5 +40,47 @@
     "title": "About",
     "section": "Tools",
     "text": "Tools\nAAA"
+  },
+  {
+    "objectID": "posts/hai-germany.html",
+    "href": "posts/hai-germany.html",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "",
+    "text": "Healthcare-associated infections (HAIs) occur during hospital care. They increase length of stay, cost, and in severe cases cause death. Germany’s hospital infection rate is not the highest in Europe, yet the national burden can still be large because the admitted population is large."
+  },
+  {
+    "objectID": "posts/hai-germany.html#problem-description",
+    "href": "posts/hai-germany.html#problem-description",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "",
+    "text": "Healthcare-associated infections (HAIs) occur during hospital care. They increase length of stay, cost, and in severe cases cause death. Germany’s hospital infection rate is not the highest in Europe, yet the national burden can still be large because the admitted population is large."
+  },
+  {
+    "objectID": "posts/hai-germany.html#data-description",
+    "href": "posts/hai-germany.html#data-description",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "Data description",
+    "text": "Data description\nThis post summarises results derived from the 2011–2012 ECDC point-prevalence study using the BHAI methodology. The totals below are those used in the Assignment 2 analysis.\n\nlibrary(tibble)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(knitr)\n\nmetrics &lt;- tribble(\n  ~metric,                              ~value,\n  \"Estimated infections (all types)\",   478222,\n  \"Attributable deaths (all types)\",     16245,\n  \"DALYs (all types)\",                  248920\n)\n\nmetrics |&gt; \n  mutate(value = format(value, big.mark=\",\")) |&gt; \n  kable()\n\n\n\nTable 1: Key HAI metrics for Germany (2011) used in this post.\n\n\n\n\n\n\nmetric\nvalue\n\n\n\n\nEstimated infections (all types)\n478,222\n\n\nAttributable deaths (all types)\n16,245\n\n\nDALYs (all types)\n248,920\n\n\n\n\n\n\n\n\nVariables in this post: total infections, attributable deaths, and disability-adjusted life years (DALYs). Source methods and interpretation follow Zacher et al. (2019);Gastmeier et al. (2010).\nData cleaning (summary): data were read from the published estimates; values were checked for consistency; minor formatting changes were applied for display (thousand separators)."
+  },
+  {
+    "objectID": "posts/hai-germany.html#analysis",
+    "href": "posts/hai-germany.html#analysis",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "Analysis",
+    "text": "Analysis\nWhich infections are most frequent? Urinary tract infections lead the counts, followed by pneumonia and surgical-site infections Zacher et al. (2019). See Figure Figure 1.\n\nlibrary(ggplot2)\n\nby_type &lt;- tibble::tribble(\n  ~type,            ~estimated_cases,\n  \"UTI\",            214150,\n  \"Pneumonia\",      106586,\n  \"Surgical site\",   93222\n)\n\nggplot(by_type, aes(type, estimated_cases)) +\n  geom_col() +\n  geom_text(aes(label = scales::comma(estimated_cases)), vjust = -0.3, size = 3.6) +\n  labs(x = NULL, y = \"Estimated cases (2011)\") +\n  theme_minimal(base_size = 12)\n\n\n\n\n\n\n\nFigure 1: Estimated cases by infection type (subset used in this post).\n\n\n\n\n\nDo the most common infections cause the most harm? No. Pneumonia and bloodstream infections contribute a larger share of deaths and DALYs than their counts alone would suggest Zacher et al. (2019). Prevention should prioritise high-severity pathways.\nCross-reference examples: Table Table 1 summarises the totals cited in the problem; Figure Figure 1 focuses on frequency for communication clarity."
+  },
+  {
+    "objectID": "posts/hai-germany.html#conclusion",
+    "href": "posts/hai-germany.html#conclusion",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "Conclusion",
+    "text": "Conclusion\nGermany recorded hundreds of thousands of HAIs in 2011. UTIs were frequent, but pneumonia and bloodstream infections drove severe outcomes. The implication for practice is to maintain universal hygiene and target high-severity pathways such as ventilator-associated pneumonia and line care bundles."
+  },
+  {
+    "objectID": "posts/hai-germany.html#references",
+    "href": "posts/hai-germany.html#references",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "References",
+    "text": "References\n\n\nGastmeier, P., Brunkhorst, F., Schrappe, M., Kern, W., & Geffers, C. (2010). How many nosocomial infections are avoidable? Deutsche Medizinische Wochenschrift, 135(3), 91–93. https://doi.org/10.1055/s-0029-1244823\n\n\nZacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and r package reveals a high burden of healthcare-associated infections (HAI) in germany compared to the average in the EU/EEA, 2011–2012. Eurosurveillance, 24(46). https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135"
   }
 ]
