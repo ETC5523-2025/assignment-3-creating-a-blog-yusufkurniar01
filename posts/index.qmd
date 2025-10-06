@@ -1,0 +1,4 @@
+---
+title: "Blog"
+redirect: hai-germany.qmd
+---

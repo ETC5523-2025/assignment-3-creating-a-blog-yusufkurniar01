@@ -4,6 +4,10 @@ author: "Yusuf Kurnia Romadhon"
 date: "2025-10-06"
 categories: [public-health, Germany, R]
 image: ../images/healthcare_data_analytics.png
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 ## Problem description
@@ -66,7 +70,7 @@ ggplot(by_type, aes(type, estimated_cases)) +
 Do the most common infections cause the most harm?
 No. Pneumonia and bloodstream infections contribute a larger share of deaths and DALYs than their counts alone would suggest @Zacher2019. Prevention should prioritise high-severity pathways.
 
-Cross-reference examples: Table @tbl-hai-counts summarises the totals cited in the problem; Figure @fig-hai-bar focuses on frequency for communication clarity.
+@tbl-hai-counts summarises the totals cited in the problem and @fig-hai-bar focuses on frequency for communication clarity.
 
 ## Conclusion
 

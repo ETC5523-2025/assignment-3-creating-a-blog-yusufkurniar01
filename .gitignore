@@ -19,3 +19,5 @@ _freeze/
 .idea/
 .DS_Store
 Thumbs.db
+
+/.quarto/

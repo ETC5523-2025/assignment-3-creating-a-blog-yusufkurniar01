@@ -16,6 +16,24 @@ $line-height-base: 1.6;
   background-color: #006DAE; /* custom blue */
 }
 
+/* Banner category chips: make text and border white */
+.quarto-title-banner .quarto-categories .quarto-category {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.85) !important;
+  background-color: transparent !important;
+}
+
+/* Chip hover/focus state */
+.quarto-title-banner .quarto-categories .quarto-category:hover,
+.quarto-title-banner .quarto-categories .quarto-category:focus {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Any links inside the banner */
+.quarto-title-banner a { color: #ffffff !important; }
+
 h1, h2, h3 {
   font-weight: 700;
   letter-spacing: 0.3px;
@@ -25,4 +43,11 @@ div.sourceCode, pre code {
   background-color: #f3f5f7;
   border-radius: 8px;
   padding: 0.8rem 1rem;
+}
+
+.home-sep {
+  border: 0;
+  height: 2px;
+  background: #6a6d73;   /* light grey line */
+  margin: 1.5rem 0 1.75rem;
 }

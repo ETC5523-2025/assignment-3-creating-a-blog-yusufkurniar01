@@ -12,7 +12,7 @@ website:
       - text: "About"
         href: about.qmd
       - text: "Blog"
-        href: posts/
+        href: posts/hai-germany.qmd
     right:
       - icon: github
         aria-label: GitHub
