@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+   - images/*.pdf
 
 website:
   title: "Yusuf Kurnia Romadhon"

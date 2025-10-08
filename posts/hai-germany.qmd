@@ -95,7 +95,7 @@ In **2011**, Germany recorded about 480,000 infections, 16,000 deaths, and 250,0
 
 ## Conclusion
 
-Germany’s burden from hospital-acquired infections was substantial in 2011: around 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost (@tbl-hai-counts; @fig-hai-bar). UTIs are frequent, but pneumonia and bloodstream infections drive the most harm. These findings are consistent with BHAI estimates and clinical work (@Zacher2019; @Gastmeier2010). The practical message is clear: maintain robust universal hygiene and prioritise high-severity prevention bundles (e.g., ventilator-associated pneumonia and central-line care).
+Germany’s burden from hospital-acquired infections was substantial in 2011: around 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost as shown in @tbl-hai-counts and  @fig-hai-bar. UTIs are frequent, but pneumonia and bloodstream infections drive the most harm. These findings are consistent with BHAI estimates and clinical work from @Zacher2019 and @Gastmeier2010. The practical message is clear: maintain robust universal hygiene and prioritise high-severity prevention bundles (e.g., ventilator-associated pneumonia and central-line care).
 
 ## References
 

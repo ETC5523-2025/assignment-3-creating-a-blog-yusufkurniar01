@@ -17,6 +17,7 @@ about:
     - icon: file
       text: Assignment 2 (PDF)
       href: images/ETC5523_Assignment2_Yusuf-Romadhon_35425067.pdf
+      target: _blank
 ---
 
 ## Short biography
