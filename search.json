@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ETC5523 Blog Assessment",
-    "section": "",
-    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\nRead the post ↓\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow big is the burden of hospital infections in Germany?\n\n\n\npublic-health\n\nGermany\n\nR\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "about.html#short-biography",
     "href": "about.html#short-biography",
     "title": "About",
@@ -26,6 +19,13 @@
     "title": "About",
     "section": "Tools",
     "text": "Tools\n\n\n\nTableau\n\n\nPower BI\n\n\nSQL (PostgreSQL/MySQL)\n\n\nPython\n\n\nR\n\n\nQuarto\n\n\nGit/GitHub\n\n\nExcel"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ETC5523 Blog Assessment",
+    "section": "",
+    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\nRead the post ↓\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow big is the burden of hospital infections in Germany?\n\n\n\npublic-health\n\nGermany\n\nR\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/hai-germany.html",
