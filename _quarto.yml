@@ -5,7 +5,7 @@ project:
    - images/*.pdf
 
 website:
-  title: "Yusuf Kurnia Romadhon"
+  title: "Yusuf Romadhon"
   description: "Communicating with Data - Personal Site and Blog"
   navbar:
     left:
