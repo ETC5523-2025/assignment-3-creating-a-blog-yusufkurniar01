@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ETC5523 Blog Assessment",
+    "section": "",
+    "text": "Communicating with Data\nI am Yusuf Kurnia Romadhon (Student ID: 35425067).\nThis site hosts my ETC5523 blog and links to my work.\n\nThe About page contains a short biography and buttons.\nThe Blog section includes a post adapted from Assignment 2 for a general audience.\n\nRead the post ↓\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow big is the burden of hospital infections in Germany?\n\n\n\npublic-health\n\nGermany\n\nR\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYusuf Kurnia Romadhon\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#short-biography",
+    "href": "about.html#short-biography",
+    "title": "About",
+    "section": "Short biography",
+    "text": "Short biography\nYusuf Kurnia Romadhon is a Master of Business Analytics candidate at Monash University. He has delivered analytics across manufacturing, telecommunications, and data services, building executive dashboards in Tableau and Power BI, writing robust SQL, and automating tasks in Python. At Monash he is strengthening statistics and learning R to produce reproducible analysis with Quarto and GitHub. He values tidy data, version control, and clear documentation, and turns business questions into measurable metrics and decision-ready insights. Yusuf works comfortably with technical teams and executives, translating operational data into concise stories that support planning, performance tracking, and continuous improvement."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nData wrangling and cleaning\n\n\nDashboard design and KPI definition\n\n\nSQL querying and optimisation\n\n\nExploratory analysis\n\n\nBusiness requirements to metrics\n\n\nData storytelling and report writing\n\n\nVersion control and reproducible workflows"
+  },
+  {
+    "objectID": "about.html#tools",
+    "href": "about.html#tools",
+    "title": "About",
+    "section": "Tools",
+    "text": "Tools\n\n\n\nTableau\n\n\nPower BI\n\n\nSQL (PostgreSQL/MySQL)\n\n\nPython\n\n\nR\n\n\nQuarto\n\n\nGit/GitHub\n\n\nExcel"
+  },
+  {
+    "objectID": "posts/hai-germany.html",
+    "href": "posts/hai-germany.html",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "",
+    "text": "Hospital-acquired infections (HAIs) occur during a patient’s hospital treatment. They keep people in hospital longer, add costs, and in severe cases can be fatal. In Germany, even with a mid-range infection rate, the overall impact is significant because so many people are admitted: about 480,000 infections, around 16,000 deaths, and roughly 250,000 healthy life-years lost in 2011. The key takeaway is to maintain strong universal hygiene and focus prevention efforts on the highest-risk areas, particularly pneumonia and bloodstream infections."
+  },
+  {
+    "objectID": "posts/hai-germany.html#problem-description",
+    "href": "posts/hai-germany.html#problem-description",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "",
+    "text": "Hospital-acquired infections (HAIs) occur during a patient’s hospital treatment. They keep people in hospital longer, add costs, and in severe cases can be fatal. In Germany, even with a mid-range infection rate, the overall impact is significant because so many people are admitted: about 480,000 infections, around 16,000 deaths, and roughly 250,000 healthy life-years lost in 2011. The key takeaway is to maintain strong universal hygiene and focus prevention efforts on the highest-risk areas, particularly pneumonia and bloodstream infections."
+  },
+  {
+    "objectID": "posts/hai-germany.html#data-description",
+    "href": "posts/hai-germany.html#data-description",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "Data description",
+    "text": "Data description\nThis post uses estimates for Germany from the ECDC 2011–2012 point-prevalence study, calculated using the BHAI method. The study reports infections, deaths attributable to infection, and disability-adjusted life years (DALYs), where one DALY equals one healthy year of life lost. Table 1 lists the headline values used in this section.\nNumbers are taken directly from the published estimates, and no re-modelling was done. Only light formatting was applied for readability (thousand separators). Methods and interpretation follow Zacher et al. (2019) and Gastmeier et al. (2010).\n\n\n\n\nTable 1: Key HAI metrics for Germany (2011) used in this post.\n\n\n\n\n\n\n\n\n\nKey HAI metrics for Germany (2011)\n\n\n\nValue\n\n\n\n\nEstimated infections (all types)\n478,222\n\n\nAttributable deaths (all types)\n16,245\n\n\nDALYs (all types)\n248,920"
+  },
+  {
+    "objectID": "posts/hai-germany.html#analysis",
+    "href": "posts/hai-germany.html#analysis",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "Analysis",
+    "text": "Analysis\nSource. Estimates are from the ECDC 2011–2012 point-prevalence study, using the BHAI method (Zacher et al. (2019); Gastmeier et al. (2010)). Values shown are the study’s central estimates for Germany in 2011.\n\nWhich infections are most frequent?\nUrinary tract infections have the highest case counts, followed by pneumonia and surgical-site infections (Zacher et al., 2019). See Figure 1.\n\n\n\n\n\n\n\n\nFigure 1: Estimated cases by infection type (subset used in this post).\n\n\n\n\n\n\n\nDo the most common infections cause the most harm?\nNo. Pneumonia and bloodstream infections account for a larger share of deaths and DALYs than their raw counts suggest (Zacher et al. (2019)). This supports prevention that targets not only common infections but also severe pathways.\nTable 1 summarises the national totals (infections, attributable deaths, DALYs), while Figure 1 highlights frequency for quick comparison.\n\n\nWhy these displays?\n\nTable 1 displays the three headline metrics together, with thousand separators for easy quick scanning.\nFigure 1 uses a short, labelled bar chart so that the rank order of infection types can be read at a glance without hovering or decoding the legends.\n\n\n\nLink back to the question\nThe question asked, “How big is the burden of hospital infections in Germany?” In 2011, Germany recorded about 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost (Table 1). UTIs were the most common (Figure 1), but pneumonia and bloodstream infections caused the most severe outcomes. This highlights the need for robust universal hygiene and targeted prevention measures in high-risk areas."
+  },
+  {
+    "objectID": "posts/hai-germany.html#conclusion",
+    "href": "posts/hai-germany.html#conclusion",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "Conclusion",
+    "text": "Conclusion\nGermany’s burden from hospital-acquired infections was substantial in 2011: around 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost (Table 1; Figure 1). UTIs are frequent, but pneumonia and bloodstream infections drive the most harm. These findings are consistent with BHAI estimates and clinical work (Zacher et al. (2019); Gastmeier et al. (2010)). The practical message is clear: maintain robust universal hygiene and prioritise high-severity prevention bundles (e.g., ventilator-associated pneumonia and central-line care)."
+  },
+  {
+    "objectID": "posts/hai-germany.html#references",
+    "href": "posts/hai-germany.html#references",
+    "title": "How big is the burden of hospital infections in Germany?",
+    "section": "References",
+    "text": "References\n\n\nGastmeier, P., Brunkhorst, F., Schrappe, M., Kern, W., & Geffers, C. (2010). How many nosocomial infections are avoidable? Deutsche Medizinische Wochenschrift, 135(3), 91–93. https://doi.org/10.1055/s-0029-1244823\n\n\nZacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and r package reveals a high burden of healthcare-associated infections (HAI) in germany compared to the average in the EU/EEA, 2011–2012. Eurosurveillance, 24(46). https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135"
+  }
+]
