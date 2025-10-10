@@ -35,32 +35,32 @@
     "text": "Hospital-acquired infections (HAIs) occur during a patient’s hospital treatment. They keep people in hospital longer, add costs, and in severe cases can be fatal. In Germany, even with a mid-range infection rate, the overall impact is significant because so many people are admitted: about 480,000 infections, around 16,000 deaths, and roughly 250,000 healthy life-years lost in 2011. The key takeaway is to maintain strong universal hygiene and focus prevention efforts on the highest-risk areas, particularly pneumonia and bloodstream infections."
   },
   {
-    "objectID": "posts/hai-germany.html#problem-description",
-    "href": "posts/hai-germany.html#problem-description",
+    "objectID": "posts/hai-germany.html#whats-the-issue",
+    "href": "posts/hai-germany.html#whats-the-issue",
     "title": "How big is the burden of hospital infections in Germany?",
     "section": "",
     "text": "Hospital-acquired infections (HAIs) occur during a patient’s hospital treatment. They keep people in hospital longer, add costs, and in severe cases can be fatal. In Germany, even with a mid-range infection rate, the overall impact is significant because so many people are admitted: about 480,000 infections, around 16,000 deaths, and roughly 250,000 healthy life-years lost in 2011. The key takeaway is to maintain strong universal hygiene and focus prevention efforts on the highest-risk areas, particularly pneumonia and bloodstream infections."
   },
   {
-    "objectID": "posts/hai-germany.html#data-description",
-    "href": "posts/hai-germany.html#data-description",
+    "objectID": "posts/hai-germany.html#where-do-these-numbers-come-from",
+    "href": "posts/hai-germany.html#where-do-these-numbers-come-from",
     "title": "How big is the burden of hospital infections in Germany?",
-    "section": "Data description",
-    "text": "Data description\nThis post uses estimates for Germany from the ECDC 2011–2012 point-prevalence study, calculated using the BHAI method. The study reports infections, deaths attributable to infection, and disability-adjusted life years (DALYs), where one DALY equals one healthy year of life lost. Table 1 lists the headline values used in this section.\nNumbers are taken directly from the published estimates, and no re-modelling was done. Only light formatting was applied for readability (thousand separators). Methods and interpretation follow Zacher et al. (2019) and Gastmeier et al. (2010).\n\n\n\n\nTable 1: Key HAI metrics for Germany (2011) used in this post.\n\n\n\n\n\n\n\n\n\nKey HAI metrics for Germany (2011)\n\n\n\nValue\n\n\n\n\nEstimated infections (all types)\n478,222\n\n\nAttributable deaths (all types)\n16,245\n\n\nDALYs (all types)\n248,920"
+    "section": "Where do these numbers come from?",
+    "text": "Where do these numbers come from?\nThis post uses estimates for Germany from the ECDC 2011–2012 point-prevalence study, calculated using the BHAI method. The study reports infections, deaths attributable to infection, and disability-adjusted life years (DALYs), where one DALY equals one healthy year of life lost. Table 1 lists the headline values used in this section.\nNumbers are taken directly from the published estimates, and no re-modelling was done. Only light formatting was applied for readability (thousand separators). Methods and interpretation follow Zacher et al. (2019) and Gastmeier et al. (2010).\n\n\n\n\nTable 1: Key HAI metrics for Germany (2011) used in this post.\n\n\n\n\n\n\n\n\n\nKey HAI metrics for Germany (2011)\n\n\n\nValue\n\n\n\n\nEstimated infections (all types)\n478,222\n\n\nAttributable deaths (all types)\n16,245\n\n\nDALYs (all types)\n248,920"
   },
   {
-    "objectID": "posts/hai-germany.html#analysis",
-    "href": "posts/hai-germany.html#analysis",
+    "objectID": "posts/hai-germany.html#what-do-the-results-show",
+    "href": "posts/hai-germany.html#what-do-the-results-show",
     "title": "How big is the burden of hospital infections in Germany?",
-    "section": "Analysis",
-    "text": "Analysis\nSource. Estimates are from the ECDC 2011–2012 point-prevalence study, using the BHAI method (Zacher et al. (2019); Gastmeier et al. (2010)). Values shown are the study’s central estimates for Germany in 2011.\n\nWhich infections are most frequent?\nUrinary tract infections have the highest case counts, followed by pneumonia and surgical-site infections (Zacher et al., 2019). See Figure 1.\n\n\n\n\n\n\n\n\nFigure 1: Estimated cases by infection type (subset used in this post).\n\n\n\n\n\n\n\nDo the most common infections cause the most harm?\nNo. Pneumonia and bloodstream infections account for a larger share of deaths and DALYs than their raw counts suggest (Zacher et al. (2019)). This supports prevention that targets not only common infections but also severe pathways.\nTable 1 summarises the national totals (infections, attributable deaths, DALYs), while Figure 1 highlights frequency for quick comparison.\n\n\nWhy these displays?\n\nTable 1 displays the three headline metrics together, with thousand separators for easy quick scanning.\nFigure 1 uses a short, labelled bar chart so that the rank order of infection types can be read at a glance without hovering or decoding the legends.\n\n\n\nLink back to the question\nThe question asked, “How big is the burden of hospital infections in Germany?” In 2011, Germany recorded about 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost (Table 1). UTIs were the most common (Figure 1), but pneumonia and bloodstream infections caused the most severe outcomes. This highlights the need for robust universal hygiene and targeted prevention measures in high-risk areas."
+    "section": "What do the results show?",
+    "text": "What do the results show?\nSource. Estimates are from the ECDC 2011–2012 point-prevalence study, using the BHAI method (Zacher et al. (2019); Gastmeier et al. (2010)). Values shown are the study’s central estimates for Germany in 2011.\n\nWhich infections are most frequent?\nUrinary tract infections have the highest case counts, followed by pneumonia and surgical-site infections (Zacher et al., 2019). See Figure 1.\n\n\n\n\n\n\n\n\nFigure 1: Estimated cases by infection type (subset used in this post).\n\n\n\n\n\n\n\nDo the most common infections cause the most harm?\nNo. Pneumonia and bloodstream infections account for a larger share of deaths and DALYs than their raw counts suggest (Zacher et al. (2019)). This supports prevention that targets not only common infections but also severe pathways.\nTable 1 summarises the national totals (infections, attributable deaths, DALYs), while Figure 1 highlights frequency for quick comparison.\n\n\nWhy these displays?\n\nTable 1 displays the three headline metrics together, with thousand separators for easy quick scanning.\nFigure 1 uses a short, labelled bar chart so that the rank order of infection types can be read at a glance without hovering or decoding the legends.\n\n\n\nLink back to the question\nThe question asked, “How big is the burden of hospital infections in Germany?” In 2011, Germany recorded about 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost (Table 1). UTIs were the most common (Figure 1), but pneumonia and bloodstream infections caused the most severe outcomes. This highlights the need for robust universal hygiene and targeted prevention measures in high-risk areas."
   },
   {
-    "objectID": "posts/hai-germany.html#conclusion",
-    "href": "posts/hai-germany.html#conclusion",
+    "objectID": "posts/hai-germany.html#so-what-does-this-mean",
+    "href": "posts/hai-germany.html#so-what-does-this-mean",
     "title": "How big is the burden of hospital infections in Germany?",
-    "section": "Conclusion",
-    "text": "Conclusion\nGermany’s burden from hospital-acquired infections was substantial in 2011: around 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost as shown in Table 1 and Figure 1. UTIs are frequent, but pneumonia and bloodstream infections drive the most harm. These findings are consistent with BHAI estimates and clinical work from Zacher et al. (2019) and Gastmeier et al. (2010). The practical message is clear: maintain robust universal hygiene and prioritise high-severity prevention bundles (e.g., ventilator-associated pneumonia and central-line care)."
+    "section": "So, what does this mean?",
+    "text": "So, what does this mean?\nGermany’s burden from hospital-acquired infections was substantial in 2011: around 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost as shown in Table 1 and Figure 1. UTIs are frequent, but pneumonia and bloodstream infections drive the most harm. These findings are consistent with BHAI estimates and clinical work from Zacher et al. (2019) and Gastmeier et al. (2010). The practical message is clear: maintain robust universal hygiene and prioritise high-severity prevention bundles (e.g., ventilator-associated pneumonia and central-line care)."
   },
   {
     "objectID": "posts/hai-germany.html#references",
