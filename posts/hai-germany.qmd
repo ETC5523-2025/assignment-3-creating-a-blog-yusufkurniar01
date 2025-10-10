@@ -10,11 +10,11 @@ execute:
   message: false
 ---
 
-## Problem description
+## What's the issue?
 
 Hospital-acquired infections (HAIs) occur during a patient's hospital treatment. They keep people in hospital longer, add costs, and in severe cases can be fatal. In Germany, even with a mid-range infection rate, the overall impact is significant because so many people are admitted: about 480,000 infections, around 16,000 deaths, and roughly 250,000 healthy life-years lost **in 2011**. The key takeaway is to maintain strong universal hygiene and focus prevention efforts on the highest-risk areas, particularly pneumonia and bloodstream infections.
 
-## Data description
+## Where do these numbers come from?
 
 This post uses estimates for Germany from the ECDC 2011–2012 point-prevalence study, calculated using the BHAI method. The study reports infections, deaths attributable to infection, and disability-adjusted life years (DALYs), where one DALY equals one healthy year of life lost. @tbl-hai-counts lists the headline values used in this section.
 
@@ -42,7 +42,7 @@ metrics |>
 ```
 
 
-## Analysis
+## What do the results show?
 
 Source. Estimates are from the ECDC 2011–2012 point-prevalence study, using the BHAI method (@Zacher2019; @Gastmeier2010). Values shown are the study’s central estimates for Germany in 2011.
 
@@ -93,7 +93,7 @@ No. Pneumonia and bloodstream infections account for a larger share of deaths an
 The question asked, “How big is the burden of hospital infections in Germany?”
 In **2011**, Germany recorded about 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost (@tbl-hai-counts). UTIs were the most common (@fig-hai-bar), but pneumonia and bloodstream infections caused the most severe outcomes. This highlights the need for robust universal hygiene and targeted prevention measures in high-risk areas.
 
-## Conclusion
+## So, what does this mean?
 
 Germany’s burden from hospital-acquired infections was substantial in 2011: around 480,000 infections, 16,000 deaths, and 250,000 healthy life-years lost as shown in @tbl-hai-counts and  @fig-hai-bar. UTIs are frequent, but pneumonia and bloodstream infections drive the most harm. These findings are consistent with BHAI estimates and clinical work from @Zacher2019 and @Gastmeier2010. The practical message is clear: maintain robust universal hygiene and prioritise high-severity prevention bundles (e.g., ventilator-associated pneumonia and central-line care).
 
